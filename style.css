@@ -1,1 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000; /* page background */
+}
+
+nav {
+    background-color: #212736; /* Extends inactive tab color to whole nav */
+}
+
+.dashboard-header {
+    background-color: #212736; 
+    color: #90A9AA; /* Same as nav bar text color */
+    text-align: left;
+    padding: 15px 10px; 
+    font-family: Arial, sans-serif; 
+}
+/* Existing styles for .nav-tabs, .nav-tabs li, etc., are unchanged */
+
+.nav-tabs {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    border-bottom: 1px solid #000000; /* Thin line below the tabs */
+    border-right: 1px solid #000000; /* Thin line to right of tabs */
+}
+
+.nav-tabs li {
+    width: 100px; 
+    padding: 15px 0; 
+    background-color: transparent; /* Makes tab background transparent */
+    color: #90A9AA;
+    text-align: center; /* Center tab text */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    border-right: 1px solid #000000; /* Thin line divider for tabs */
+}
+
+.nav-tabs li:hover, .nav-tabs li.active {
+    background-color: #000000; /* Active tab and hover background */
+}
+
+.content {
+    margin: 20px;
+    padding: 10px;
+    border: 0px solid #ddd;
+    border-radius: 5px;
+    color: #90A9AA; 
+}
+
+.layout-table {
+    table-layout: fixed; /* Adds control over column widths */
+    width: 100%; 
+    border-collapse: collapse; /* Removes space between table cells */
+}
+
+.layout-table td, .layout-table td * {
+    margin: 0; 
+    padding: 0; 
+}
+
+.video-frame {
+    width: 700px; 
+    max-width: 700px; 
+    height: 500px; 
+    background-image: url('img/newsize.jpg');
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.text-box {
+    flex-grow: 1; /* Allows the text box to fill the remaining space */
+    height: 500px; 
+    padding: 0px 15px !important; /* Force apply padding */
+    overflow-y: auto;
+    box-sizing: border-box; /* padding is included in the height */
+    margin-left: 0px; 
+    line-height: 1.75; /* Sets the line spacing */
+}
+
+.text-box a {
+    color: #FFFFFF; /* Sets link color */
+    text-decoration: none; /* Removes underline from links */
+    font-weight: bold;
+}
 
