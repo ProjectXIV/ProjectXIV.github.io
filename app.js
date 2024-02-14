@@ -41,11 +41,9 @@ class App extends React.Component {
                                         <br />
                                         <p>Llana never stopped growing and expanding in tech. During her time as a housewife, she grew social media groups on MySpace and Facebook for fun. Several topping 50,000 followers.</p>
                                         <br />
-                                        <p>In 2016 Ms. Ivanovich Grossman Crook set out to co-found another company with the same team. Her role this time was Product Manager, expanding the scope of her professional responsibilities. Over the next two years, she led a skeleton crew building the front end for an incredible product. A web asset management service called Bit Discovery was born.</p>
+                                        <p>In 2016 Ms. Ivanovich Grossman Crook set out to co-found another company with the same team. Her role this time was Product Manager, expanding the scope of her professional responsibilities. Over the next two years, she led a skeleton crew building the front end for an incredible product. A web asset management service called Bit Discovery was born. Within a few short years, Bit Discovery was acquired by an information security company called Teneble. With that win, it was time for a personal break with work.</p>
                                         <br />
-                                        <p>This is <strong>ProjectXIV</strong> content with HTML <a href="https://example.com">markup</a>.</p>
-
-                                        <p>Your text goes here. This box is 438 pixels tall and its width adjusts to the remaining percentage of the page.</p>
+                                        <p>Upon Llana's reemergence, she decided programming firsthand would be a powerful skill to add to her toolkit of professional work, as well as social marketing hobbies. That journey is presently ongoing.</p>
                                     </div>
                                 </td>
                             </tr>
