@@ -24,23 +24,26 @@ class App extends React.Component {
                                                 title="Hello World"
                                                 frameBorder="0" 
                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                                allowFullScreen={true}> // Corrected from allowfullscreen to allowFullScreen={true}
+                                                allowFullScreen={true}>
                                             </iframe>
                                         </div>
                                     </div>
                                 </td>
                                 <td>
                                     <div className="text-box">
-                                    <h3>Llana Ivanovich Grossman Crook</h3>
-                                    <span style={{ fontSize: '18px', fontWeight: 'bold', marginTop: '10px', marginBottom: '10px' }}>Bio:  </span>Llana formed an obsession taking apart watches and clocks at 7 years old. Blessed to have been born to a family with an unusually tech-inclined uncle, Llana was a proficient Commodore64 user by the time she was eight years old circa 1985, playing with programming in BASIC to make the device do interesting things. Her expanding relationship with technology had taken hold, resulting in her learning HTML the moment the internet became accessible, and moving on to the world of hacking. By the time Llana graduated high school in 1996, she was known in her family for her free computer and game console repair assistance, warranties be damned!
+                                        <h3>Llana Ivanovich Grossman Crook</h3>
+                                        <span style={{ fontSize: '18px', fontWeight: 'bold', marginTop: '10px', marginBottom: '10px' }}>Bio:  </span>
+                                        <p>Llana formed an obsession taking apart watches and clocks at 7 years old. Blessed to have been born to a family with an unusually tech-inclined uncle, Llana was a proficient Commodore64 user by the time she was eight years old circa 1985, playing with programming in BASIC to make the device do interesting things. Her expanding relationship with technology had taken hold, resulting in her learning HTML the moment the internet became accessible, and moving on to the world of hacking. By the time Llana graduated high school in 1996, she was known in her family for her free computer and game console repair assistance, warranties be damned!</p>
 
-                                    <p>At age twenty-one, Ms. Ivanovich Grossman Crook worked her first paid job coordinating Y2K remediation for the IT department of one of the nation's largest biotech companies, Amgen Inc. About a year later, life brought Llana to Silicon Valley where she worked in the Video Game Industry for a bit, and eventually co-founded her first information security company with her husband and their best friend.
+                                        <p>At age twenty-one, Ms. Ivanovich Grossman Crook worked her first paid job coordinating Y2K remediation for the IT department of one of the nation's largest biotech companies, Amgen Inc. About a year later, life brought Llana to Silicon Valley where she worked in the Video Game Industry for a bit, and eventually co-founded her first information security company with her husband and their best friend.</p>
 
-                                    <p>WhiteHat Security, Inc. was a steady success that grew over time. Llana left her official responsibility of content management and marketing at the company to raise and homeschool 3 children, but was never far from the pulse of the company. After about 10 years, WhiteHat's founders moved on to other projects. The company was acquired by a Japanese telecom company, and became the founding team's first official win. 
+                                        <p>WhiteHat Security, Inc. was a steady success that grew over time. Llana left her official responsibility of content management and marketing at the company to raise and homeschool 3 children, but was never far from the pulse of the company. After about 10 years, WhiteHat's founders moved on to other projects. The company was acquired by a Japanese telecom company, and became the founding team's first official win.</p>
 
-                                    <p>Llana never stopped growing and expanding in tech. During her time as a housewife, she grew social media groups on MySpace and Facebook for fun. Several topping 50,000 followers.
+                                        <p>Llana never stopped growing and expanding in tech. During her time as a housewife, she grew social media groups on MySpace and Facebook for fun. Several topping 50,000 followers.</p>
 
-                                    <p>In 2016 Ms. Ivanovich Grossman Crook set out to co-found another company with the same team. Her role this time was Product Manager, expanding the scope of her professional responsibilities. Over the next two years, she led a skelleton crew building the front end for an incredible product. A web asset management service called Bit Discovery was born.
+                                        <p>In 2016 Ms. Ivanovich Grossman Crook set out to co-found another company with the same team. Her role this time was Product Manager, expanding the scope of her professional responsibilities. Over the next two years, she led a skeleton crew building the front end for an incredible product. A web asset management service called Bit Discovery was born.</p>
+
+                                        <p>This is <strong>ProjectXIV</strong> content with HTML <a href="https://example.com">markup</a>.</p>
 
                                         <p>Your text goes here. This box is 438 pixels tall and its width adjusts to the remaining percentage of the page.</p>
                                     </div>
