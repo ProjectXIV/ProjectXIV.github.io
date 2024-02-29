@@ -50,8 +50,14 @@ class App extends React.Component {
                         </tbody>
                     </table>
                 );
-            case 'Progress':
-                return <p>This is the Progress content.</p>;
+            case 'Project Links':
+                return     <p><ul>
+                            <li><a href="/pacmen">Pacmen</a></li>
+                            <li><a href="/bustracker">Bus Tracker</a></li>
+                            <li><a href="/eyes">Eyes</a></li>
+                            <li><a href="https://github.com/ProjectXIV/form_starter">Build a Formik Form</a></li>
+
+    </ul></p>;
             case 'Connect':
                 return <p>This is Connect content.</p>;
             default:
