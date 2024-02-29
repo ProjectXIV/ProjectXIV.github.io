@@ -61,7 +61,7 @@ class App extends React.Component {
             case 'Connect':
                 return <p>This is Connect content.</p>;
             default:
-                return <p>Welcome to our website!</p>;
+                return <p>This page is a work in progress. Apologies!</p>;
         }
     }
     
