@@ -45,7 +45,11 @@ class App extends React.Component {
                                         <br />
                                         <p>Upon Llana's reemergence, she decided programming firsthand would be a powerful skill to add to her toolkit of professional work, as well as social marketing hobbies. That journey is presently ongoing.</p>
                                     </div>
-                                    <p><ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                            <p><ul>
                             <li><a href="/pacmen">Pacmen</a></li>
                             <li><a href="/bustracker">Bus Tracker</a></li>
                             <li><a href="/eyes">Eyes</a></li>
