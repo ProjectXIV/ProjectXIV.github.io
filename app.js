@@ -35,7 +35,8 @@ class App extends React.Component {
                                             <h3>Llana Ivanovich Grossman Crook</h3>
                                             <span style={{ fontSize: '18px', fontWeight: 'bold', marginTop: '10px', marginBottom: '10px' }}>Bio:  </span>
                                             <p>Llana formed an obsession taking apart watches and clocks at 7 years old. Blessed to have been born to a family with an unusually tech-inclined uncle, Llana was a proficient Commodore64 user by the time she was eight years old circa 1985, playing with programming in BASIC to make the device do interesting things. Her expanding relationship with technology had taken hold, resulting in her learning HTML the moment the internet became accessible, and moving on to the world of hacking. By the time Llana graduated high school in 1996, she was known in her family for her free computer and game console repair assistance, warranties be damned!</p>
-                                            {/* Additional biography content */}
+                                            <p>Many years later, Llana followed her love of technology from computers, to hacking, to information security and helping people. Professionally, she started with writing, then project managing, dabbling in marketing as she went, and eventually became a product manager. She cofounded two successful startups in the information security sphere. Now Llana is ready for her next big professional iteration, software architecture and engineering.</p>
+                                            <p>Find her at <a href="https://twitter.com/Llana">@Llana on X.com</a></p>
                                         </div>
                                     </td>
                                 </tr>
@@ -54,7 +55,7 @@ class App extends React.Component {
                     </>
                 );
             case 'Connect':
-                return <p>This is Connect content.</p>;
+                return <p> <a href="https://twitter.com/Llana">@Llana on X.com</a></p>;
             default:
                 return <p>Welcome to our website!</p>;
         }
