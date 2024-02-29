@@ -47,30 +47,20 @@ class App extends React.Component {
                                     </div>
                                 </td>
                             </tr>
-                            <tr>
-                                <td>
-                            <p><ul>
-                            <li><a href="/pacmen">Pacmen</a></li>
-                            <li><a href="/bustracker">Bus Tracker</a></li>
-                            <li><a href="/eyes">Eyes</a></li>
-                            <li><a href="https://github.com/ProjectXIV/form_starter">Build a Formik Form</a></li>
-                                </td>
-                            </tr>
                         </tbody>
                     </table>
                 );
             case 'Project Links':
-                return     <p><ul>
-                            <li><a href="/pacmen">Pacmen</a></li>
-                            <li><a href="/bustracker">Bus Tracker</a></li>
-                            <li><a href="/eyes">Eyes</a></li>
-                            <li><a href="https://github.com/ProjectXIV/form_starter">Build a Formik Form</a></li>
-
-    </ul></p>;
+                return <p><ul>
+                <li><a href="/pacmen">Pacmen</a></li>
+                <li><a href="/bustracker">Bus Tracker</a></li>
+                <li><a href="/eyes">Eyes</a></li>
+                <li><a href="https://github.com/ProjectXIV/form_starter">Build a Formik Form</a></li>
+                </ul></p>;
             case 'Connect':
                 return <p>This is Connect content.</p>;
             default:
-                return <p>This page is a work in Project Links. Apologies!</p>;
+                return <p>Welcome to our website!</p>;
         }
     }
     
