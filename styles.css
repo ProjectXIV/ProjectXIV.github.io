@@ -17,6 +17,7 @@ nav {
     padding: 15px 10px; 
     font-family: Arial, sans-serif; 
 }
+
 /* Existing styles for .nav-tabs, .nav-tabs li, etc., are unchanged */
 
 .nav-tabs {
@@ -82,9 +83,9 @@ nav {
     line-height: 1.75; /* Sets the line spacing */
 }
 
-.text-box a {
-    color: #FFFFFF; /* Sets link color */
-    text-decoration: none; /* Removes underline from links */
-    font-weight: bold;
+/* Global link styles */
+a {
+    color: #d4ded4; 
+    text-decoration: none; 
+    font-weight: bold; 
 }
-
