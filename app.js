@@ -61,7 +61,7 @@ class App extends React.Component {
             case 'Connect':
                 return <p>This is Connect content.</p>;
             default:
-                return <p>This page is a work in progress. Apologies!</p>;
+                return <p>This page is a work in Project Links. Apologies!</p>;
         }
     }
     
@@ -74,7 +74,7 @@ class App extends React.Component {
                 <nav>
                     <ul className="nav-tabs">
                         <li className={activeTab === 'ProjectXIV' ? 'active' : ''} onClick={() => this.setActiveTab('ProjectXIV')}>ProjectXIV</li>
-                        <li className={activeTab === 'Progress' ? 'active' : ''} onClick={() => this.setActiveTab('Progress')}>Progress</li>
+                        <li className={activeTab === 'Project Links' ? 'active' : ''} onClick={() => this.setActiveTab('Project Links')}>Project Links</li>
                         <li className={activeTab === 'Connect' ? 'active' : ''} onClick={() => this.setActiveTab('Connect')}>Connect</li>
                     </ul>
                 </nav>
