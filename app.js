@@ -63,7 +63,6 @@ class App extends React.Component {
                                     <p><a href="https://github.com/ProjectXIV/form_starter">Visit on GitHub</a></p>
                                 </div>
                         </div>
-                    </div>
                     </>
                 );
             case 'Connect':
