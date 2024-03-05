@@ -62,7 +62,7 @@ class App extends React.Component {
                                 <h3>Build a Formik Form</h3>
                                 <p><a href="https://github.com/ProjectXIV/form_starter">Visit on GitHub</a></p>
                             </div>
-                    </>
+                        </div>
                 );
             case 'Connect':
                 return <p> <a href="https://twitter.com/Llana">@Llana on X.com</a></p>;
