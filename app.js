@@ -45,24 +45,25 @@ class App extends React.Component {
                         <div className="text-box" style={{marginTop: '20px'}}>
                             <h3>Project Links</h3>
                             {/* Define iFrames for project links here */}
-                            <div>
-                                <h3>Pacmen</h3>
-                                <iframe src="/pacmen/index.html" title="Pacmen Project" width="100%" height="400"></iframe>
-                            </div>
-                            <div>
-                                <h3>Bus Tracker</h3>
-                                <iframe src="/bustracker/index.html" title="Bus Tracker Project" width="100%" height="400"></iframe>
-                            </div>
-                            <div>
-                                <h3>Eyes</h3>
-                                <iframe src="/eyes/index.html" title="Eyes Project" width="100%" height="400"></iframe>
-                            </div>
-                            {/* Assuming the Formik Form is an external link, keep as is */}
-                            <div>
-                                <h3>Build a Formik Form</h3>
-                                <p><a href="https://github.com/ProjectXIV/form_starter">Visit on GitHub</a></p>
-                            </div>
+                                <div>
+                                    <h3>Pacmen</h3>
+                                    <iframe src="/pacmen/index.html" title="Pacmen Project" width="100%" height="400"></iframe>
+                                </div>
+                                <div>
+                                    <h3>Bus Tracker</h3>
+                                    <iframe src="/bustracker/index.html" title="Bus Tracker Project" width="100%" height="400"></iframe>
+                                </div>
+                                <div>
+                                    <h3>Eyes</h3>
+                                    <iframe src="/eyes/index.html" title="Eyes Project" width="100%" height="400"></iframe>
+                                </div>
+                                {/* Assuming the Formik Form is an external link, keep as is */}
+                                <div>
+                                    <h3>Build a Formik Form</h3>
+                                    <p><a href="https://github.com/ProjectXIV/form_starter">Visit on GitHub</a></p>
+                                </div>
                         </div>
+                    </div>
                     </>
                 );
             case 'Connect':
