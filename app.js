@@ -10,7 +10,7 @@ class App extends React.Component {
 
         if (activeTab === 'ProjectXIV') {
             return (
-                <>
+                <React.Fragment>
                     <table className="layout-table">
                         <tbody>
                             <tr>
@@ -57,14 +57,12 @@ class App extends React.Component {
                             <p><a href="https://github.com/ProjectXIV/form_starter">Visit on GitHub</a></p>
                         </div>
                     </div>
-                </>
+                </React.Fragment>
             );
         }
-        // Handling for 'Connect' activeTab
         else if (activeTab === 'Connect') {
-            return <p> <a href="https://twitter.com/Llana">@Llana on X.com</a></p>;
+            return <p><a href="https://twitter.com/Llana">@Llana on X.com</a></p>;
         }
-        // Default case when no specific tab is active
         else {
             return <p>Welcome to our website!</p>;
         }
